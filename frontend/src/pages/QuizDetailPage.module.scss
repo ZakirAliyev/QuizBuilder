@@ -1,0 +1,81 @@
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.link {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  color: #4f46e5;
+  text-decoration: none;
+  font-size: 1.1rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+hr {
+  border: 1px solid #ddd;
+  margin-bottom: 2rem;
+}
+
+.questions {
+  margin-top: 2rem;
+}
+
+.questionCard {
+  padding: 1.5rem;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.question {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.type {
+  margin-left: 0.5rem;
+  color: #555;
+}
+
+.options {
+  list-style-type: none;
+  padding-left: 1.2rem;
+}
+
+.options li {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .question {
+    font-size: 1.1rem;
+  }
+
+  .type {
+    font-size: 1rem;
+  }
+
+  .options li {
+    font-size: 1rem;
+  }
+}
