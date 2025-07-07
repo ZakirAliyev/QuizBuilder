@@ -1,0 +1,90 @@
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.createLink {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  background: #4f46e5;
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+
+  &:hover {
+    background: #4338ca;
+  }
+}
+
+.quizList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.quizItem {
+  padding: 1rem;
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.quizInfo {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.viewLink {
+  color: #4f46e5;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.deleteBtn {
+  background: #e53e3e;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background: #c53030;
+  }
+}
+
+@media (max-width: 600px) {
+  .quizItem {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .actions {
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+  }
+}
